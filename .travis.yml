@@ -1,6 +1,6 @@
 language: perl
 
-install: cpanm --notest Test::Whitespaces
+install: 'echo "Nothing to install"'
 
 script: prove -v t
 
