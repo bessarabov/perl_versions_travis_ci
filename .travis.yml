@@ -1,5 +1,7 @@
 language: perl
 
+install: cpanm --notest Test::Whitespaces
+
 script: prove -v t
 
 perl:
